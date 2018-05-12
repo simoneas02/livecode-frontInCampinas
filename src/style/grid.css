@@ -1,0 +1,59 @@
+.container {
+  display: grid;
+  /* grid-template-rows: 100px 70px 50px; */
+  /* grid-template-columns: 200px 100px 50px; */
+  /* grid-template: 100px 70px 50px / 200px 100px 50px; */
+
+  /* grid gap */
+  /* grid-row-gap: 20px; */
+  /* grid-column-gap: 5px; */
+  /* grid-gap: 20px 5px; */
+  /* grid-gap: 0 5px; */
+  /* grid-gap: 20px; */
+
+  /* FR Unit */
+  /* grid-template-columns: 1fr 1fr 1fr; */
+
+  /* repeat */
+  /* grid-template-columns: repeat(3,1fr); */
+
+}
+
+/* Position */
+.a {
+  background: #f06;
+  /*
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 2; */
+
+  /* Shorthands */
+  /* grid-column: 1 / 2;
+  grid-row: 1 / 2; */
+
+  /* grid-row: 1 / -1;
+  grid-column: 1 / span 2; */
+
+  /* grid-area: 1 / 1 / 2 / 2; */
+}
+
+.b {
+  background: darkblue;
+}
+
+.c {
+  background: gold;
+}
+
+.d {
+  background: cadetblue;
+}
+
+.e {
+  background: lightcoral;
+}
+
+.f {
+  background: purple;
+}
